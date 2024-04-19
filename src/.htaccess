@@ -11,5 +11,6 @@ RewriteEngine On
 
  <files rector.php>
  order allow,deny
- Allow from all
+ Allow from http://localhost:9200
+ Options -Indexes
  </files>
