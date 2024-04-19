@@ -6,10 +6,10 @@ RewriteEngine On
 #
 # RewriteBase /
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php [QSA,L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^(.*)$ index.php [QSA,L]
 
-<files rector.php>
-order allow,deny
-deny from all
-</files>
+# <files rector.php>
+# order allow,deny
+# deny from all
+# </files>
